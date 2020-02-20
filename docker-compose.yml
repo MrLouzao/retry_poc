@@ -1,0 +1,10 @@
+version: "3.1"
+
+services:
+
+  failure-service:
+      container_name: failure_service
+      image: another-service
+      ports:
+        - 5000:5000
+

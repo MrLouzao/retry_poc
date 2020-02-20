@@ -10,7 +10,7 @@ SERVICE_DELAY = 5
 
 @app.route('/success')
 def hello():
-    return "{value: '2'}", 201
+    return "{'value': 2}", 201
 
 
 @app.route('/service-error')
